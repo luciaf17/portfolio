@@ -245,7 +245,7 @@ form textarea {
   border-radius: 5px;
 }
 
-@media (max-width: 1085px){
+@media screen and (max-width: 1085px){
   .content {
       flex-flow: column wrap;
       justify-content: center;
@@ -258,5 +258,18 @@ form textarea {
 }
 
 @media screen and (max-width: 600px){
-  
+  .header{
+    width: 46%;
+    
+  }
+  .content{
+    width: 46%;
+    
+  }
+  .layout{
+    width: 46%;
+  }
+  .footer{
+    width: 46%;
+  }
 }
