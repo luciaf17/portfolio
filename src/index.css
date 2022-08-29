@@ -102,24 +102,29 @@ code {
   margin-top: 80px;
 }
 
+.sobre-mi{
+  
+}
+
 .home strong{
-  color:#917782;
+  color:#f45572;
 }
 
 .home h2{
   color: #cfb2be;
 }
 
-.home .title a{
+.home a{
   color: white;
-  padding: 7px;
+  padding: 5px;
   border-radius: 5px;
   background: #b0c2f2;
   text-decoration: none;
   transition: all 300ms;
+  float: right;
 }
 
-.home .title a:hover,
+.home a:hover,
 input[type='submit']:hover,
 button:hover{
   background-color: #f79fbe;
@@ -135,10 +140,6 @@ button:hover{
 
 .page .heading {
   font-size: 45px;
-}
-
-.home p {
-  color: #f79fbe;
 }
 
 input[type='text'],
