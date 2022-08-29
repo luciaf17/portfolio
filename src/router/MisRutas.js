@@ -17,7 +17,7 @@ const MisRutas = () => {
         <Routes>
               <Route path='/' element={<Navigate to="/inicio"/>}></Route>
               <Route path='/inicio' element={<Inicio/>}></Route>
-              <Route path='/portfolio/' element={<Portafolio/>}></Route>
+              <Route path='/portfolio' element={<Portafolio/>}></Route>
               <Route path='/servicios' element={<Servicios/>}></Route>
               <Route path='/curriculum' element={<Curriculum/>}></Route>
               <Route path='/contacto' element={<Contacto/>}></Route>

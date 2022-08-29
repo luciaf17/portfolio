@@ -19,11 +19,12 @@ code {
   margin: 0 auto;
 
   display: grid;
-  grid-template-areas:
+   grid-template-areas:
       "header header header header"
       "content content content content"
       "footer footer footer footer"
-  ;
+  ; 
+  
 }
 
 .header{
@@ -94,6 +95,7 @@ code {
 .content {
   grid-area: content;
   min-height: 400px;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
 }
 
 .home h1{
@@ -245,31 +247,18 @@ form textarea {
   border-radius: 5px;
 }
 
-@media screen and (max-width: 1085px){
-  .content {
-      flex-flow: column wrap;
-      justify-content: center;
-      align-items: center;
-  }
-
-  .work-item{
-      width: 80%;
-  }
+.page .heading a{
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+  float: right;
+  border-radius: 5px;
+  background: #b0c2f2;
+  text-decoration: none;
+  transition: all 300ms;
 }
 
-@media screen and (max-width: 600px){
-  .header{
-    width: 46%;
-    
-  }
-  .content{
-    width: 46%;
-    
-  }
-  .layout{
-    width: 46%;
-  }
-  .footer{
-    width: 46%;
-  }
+.page .heading a:hover{
+  background-color: #f79fbe;
+  transition-duration: 300ms;
 }
