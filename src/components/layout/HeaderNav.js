@@ -6,7 +6,7 @@ const HeaderNav = () => {
     <header className='header'>
             <h3>
                 Maria Lucia Futestti
-            </h3>
+            </h3> 
       <nav>
         <ul>
             <li>
