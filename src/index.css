@@ -92,7 +92,7 @@ code {
   font-size: 14px;
   margin-top: 60px;
   border-top: 3px solid black;
-  padding-top: 35px;
+  padding-top: 15px;
   background: #fff6fa;
 }
 
@@ -125,6 +125,16 @@ code {
 
 .sobre-mi{
   
+}
+
+.strong{
+  color: #f45572;
+  font-size: 20px;
+}
+
+.cv-title{
+  color: #f3a8c2;
+  border-bottom: 1px solid #75c2f9;
 }
 
 .home strong{

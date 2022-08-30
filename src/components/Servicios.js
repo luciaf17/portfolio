@@ -9,10 +9,19 @@ const Servicios = () => {
           <h3>Diseño Web</h3>
         </article>
         <article className='service'>
+          <h3>Desarrollo Web</h3>
+        </article>
+        <article className='service'>
           <h3>Análisis de Datos</h3>
         </article>
         <article className='service'>
           <h3>Salesforce</h3>
+        </article>
+        <article className='service'>
+          <h3>Soluciones IoT</h3>
+        </article>
+        <article className='service'>
+          <h3>Redacción</h3>
         </article>
       </section>
     </div>
