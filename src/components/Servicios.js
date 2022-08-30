@@ -23,6 +23,9 @@ const Servicios = () => {
         <article className='service'>
           <h3>Redacción</h3>
         </article>
+        <article className='service'>
+          <h3>Impresión 3D</h3>
+        </article>
       </section>
     </div>
   )

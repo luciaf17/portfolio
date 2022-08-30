@@ -2,11 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { trabajos } from '../data/Trabajos'
 
-const ListadoTrabajos = ({limite}) => {
+const ListadoTrabajos = () => {
   return (
-      <section className='works animate__fadeInUp'>
+      <section className='works'>
       {
-        trabajos.slice(0, limite).map(trabajo =>{
+        trabajos.map(trabajo =>{
           return (
           <article key={trabajo.id} className="work-item">
             <div className='mask'>

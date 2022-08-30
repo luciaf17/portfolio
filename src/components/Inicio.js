@@ -12,7 +12,6 @@ const Inicio = () => {
       Soy una persona que presta atención a los <strong>detalles</strong>, me gusta crear visualizaciones con especial mirada en el <strong>diseño</strong>, logrando un resultado armónico, agradable de ver y usar. Me gusta mucho trabajar en equipo, creo que los puntos de vista de colegas te ayudan a ver las cosas de otra manera logrando así crecer <strong>profesionalmente</strong>. Soy <strong>empática</strong>, me gusta <strong>escuchar</strong> y entender el problema que se debe resolver para luego pensar en una solución que realmente genere un valor en el usuario. Soy una apasionada de la <strong>tecnología</strong> en general, especialmente en el mundo <strong>crypto</strong> e <strong>IoT</strong>. 
     </p>
      <section className='last-works'>
-      
      </section>
     </div>
   )
