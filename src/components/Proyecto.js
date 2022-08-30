@@ -17,7 +17,7 @@ const Proyecto = () => {
       <div className='page page-work'>
         <h1 className='heading'>{proyecto.nombre}</h1>
             <div className='mask'>
-              <img src={"/images/" + proyecto.id + ".png"} />
+              <img src={`./${proyecto.id}.png`} />
             </div>
         <p>{proyecto.tecnologias}</p>
         <p>{proyecto.descripcion}</p>

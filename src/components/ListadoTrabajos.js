@@ -10,7 +10,7 @@ const ListadoTrabajos = () => {
           return (
           <article key={trabajo.id} className="work-item">
             <div className='mask'>
-              <img src={"/images/" + trabajo.id + ".png"} />
+            <img src={`./${trabajo.id}.png`} />
             </div>
             <span>{trabajo.categoria}</span>
             <h2> <Link to={"/proyecto/" + trabajo.id}>{trabajo.nombre}</Link></h2>
