@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/inicio/static/css/main.695773a0.css",
-    "main.js": "/inicio/static/js/main.6e3f9834.js",
-    "static/media/quicksand-latin-600.woff": "/inicio/static/media/quicksand-latin-600.6891aedf32783ef69334.woff",
-    "static/media/quicksand-latin-500.woff": "/inicio/static/media/quicksand-latin-500.e16bfdc463d3fa68fe5b.woff",
-    "static/media/quicksand-latin-400.woff": "/inicio/static/media/quicksand-latin-400.558969494c5e2743f1cf.woff",
-    "static/media/quicksand-latin-300.woff": "/inicio/static/media/quicksand-latin-300.c7342fbf45ae28f68801.woff",
-    "static/media/quicksand-latin-700.woff": "/inicio/static/media/quicksand-latin-700.82849a6e9f5978535d52.woff",
-    "static/media/quicksand-latin-600.woff2": "/inicio/static/media/quicksand-latin-600.07a3480d288293229838.woff2",
-    "static/media/quicksand-latin-400.woff2": "/inicio/static/media/quicksand-latin-400.4632f3d10356442aa7a6.woff2",
-    "static/media/quicksand-latin-500.woff2": "/inicio/static/media/quicksand-latin-500.4ff6e5b9ccdb25199651.woff2",
-    "static/media/quicksand-latin-700.woff2": "/inicio/static/media/quicksand-latin-700.e38cff2ded151dda276f.woff2",
-    "static/media/quicksand-latin-300.woff2": "/inicio/static/media/quicksand-latin-300.c21933f51b34fd58090f.woff2",
-    "index.html": "/inicio/index.html",
-    "main.695773a0.css.map": "/inicio/static/css/main.695773a0.css.map",
-    "main.6e3f9834.js.map": "/inicio/static/js/main.6e3f9834.js.map"
+    "main.css": "/portfolio/static/css/main.98110d2d.css",
+    "main.js": "/portfolio/static/js/main.fbe2f0f9.js",
+    "static/media/quicksand-latin-600.woff": "/portfolio/static/media/quicksand-latin-600.6891aedf32783ef69334.woff",
+    "static/media/quicksand-latin-500.woff": "/portfolio/static/media/quicksand-latin-500.e16bfdc463d3fa68fe5b.woff",
+    "static/media/quicksand-latin-400.woff": "/portfolio/static/media/quicksand-latin-400.558969494c5e2743f1cf.woff",
+    "static/media/quicksand-latin-300.woff": "/portfolio/static/media/quicksand-latin-300.c7342fbf45ae28f68801.woff",
+    "static/media/quicksand-latin-700.woff": "/portfolio/static/media/quicksand-latin-700.82849a6e9f5978535d52.woff",
+    "static/media/quicksand-latin-600.woff2": "/portfolio/static/media/quicksand-latin-600.07a3480d288293229838.woff2",
+    "static/media/quicksand-latin-400.woff2": "/portfolio/static/media/quicksand-latin-400.4632f3d10356442aa7a6.woff2",
+    "static/media/quicksand-latin-500.woff2": "/portfolio/static/media/quicksand-latin-500.4ff6e5b9ccdb25199651.woff2",
+    "static/media/quicksand-latin-700.woff2": "/portfolio/static/media/quicksand-latin-700.e38cff2ded151dda276f.woff2",
+    "static/media/quicksand-latin-300.woff2": "/portfolio/static/media/quicksand-latin-300.c21933f51b34fd58090f.woff2",
+    "index.html": "/portfolio/index.html",
+    "main.98110d2d.css.map": "/portfolio/static/css/main.98110d2d.css.map",
+    "main.fbe2f0f9.js.map": "/portfolio/static/js/main.fbe2f0f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.695773a0.css",
-    "static/js/main.6e3f9834.js"
+    "static/css/main.98110d2d.css",
+    "static/js/main.fbe2f0f9.js"
   ]
 }
