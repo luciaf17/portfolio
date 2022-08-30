@@ -72,6 +72,11 @@ code {
   text-decoration: none;
 }
 
+.header h3 a {
+  text-decoration: none;
+  color: #ff6961;
+}
+
 .header .active,
 .header a:hover{
   color: #f79fbe;
@@ -85,10 +90,26 @@ code {
   line-height: 7px;
   text-align: center;
   font-size: 14px;
-  margin-top: 80px;
+  margin-top: 60px;
   border-top: 3px solid black;
-  padding-top: 45px;
+  padding-top: 35px;
   background: #fff6fa;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #005c8c;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.footer a:hover{
+  color: #f79fbe;
+  transition: all 300ms;
+}
+
+.footer h3{
+  font-size: 18px;
 }
 
 .content {

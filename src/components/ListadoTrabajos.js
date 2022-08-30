@@ -4,7 +4,7 @@ import { trabajos } from '../data/Trabajos'
 
 const ListadoTrabajos = ({limite}) => {
   return (
-      <section className='works'>
+      <section className='works animate__fadeInUp'>
       {
         trabajos.slice(0, limite).map(trabajo =>{
           return (

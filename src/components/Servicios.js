@@ -2,7 +2,7 @@ import React from 'react'
 
 const Servicios = () => {
   return (
-    <div className='page'>
+    <div className='page animate__animated animate__fadeInLeft'>
       <h1 className='heading'>Mis Servicios</h1>
       <section className='services'>
         <article className='service'>

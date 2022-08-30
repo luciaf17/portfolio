@@ -2,8 +2,8 @@ import React from 'react'
 
 const Curriculum = () => {
   return (
-      <div className='page'>
-        <h1 className='heading'>Mi Curriculum <a href='./CV MARIA LUCIA FUTESTTI.pdf' download={''}>Descargar PDF</a></h1>
+      <div className='page animate__animated animate__fadeInLeft'>
+        <h1 className='heading'>Mi Curriculum <a href='./CV MARIA LUCIA FUTESTTI.pdf' download={''} className='animate__animated animate__pulse'>Descargar PDF</a></h1>
         
         <h3>Experiencia</h3>
       <ul>

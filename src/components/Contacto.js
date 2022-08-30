@@ -37,14 +37,14 @@ const Contacto = () => {
   };
 
   return (
-    <div className='page'>
+    <div className='page animate__animated animate__fadeInLeft'>
       <h1 className='heading'>Contacto</h1>
       <form className='contact' ref={form} onSubmit={sendEmail}>
         <input type="text" placeholder='Nombre' name="nombre" />
         <input type="text" placeholder='Apellido' name="apellido" />
         <input type="text" placeholder='Email' name="email" />
         <textarea placeholder='Motivo de Contacto..' name="mensaje" />
-        <input type="submit" placeholder='Enviar' />
+        <input type="submit" placeholder='Enviar' className='animate__animated animate__pulse'/>
         <Toaster />
       </form>
     </div>
