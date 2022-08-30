@@ -11,7 +11,7 @@ import Servicios from '../components/Servicios'
 
 const MisRutas = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <HeaderNav />
       <section className='content'>
         <Routes>
