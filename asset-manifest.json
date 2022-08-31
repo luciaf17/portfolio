@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0dc37f63.css",
-    "main.js": "/portfolio/static/js/main.b5d01393.js",
+    "main.css": "/portfolio/static/css/main.2df38159.css",
+    "main.js": "/portfolio/static/js/main.96d52d7a.js",
     "static/media/quicksand-latin-600.woff": "/portfolio/static/media/quicksand-latin-600.6891aedf32783ef69334.woff",
     "static/media/quicksand-latin-500.woff": "/portfolio/static/media/quicksand-latin-500.e16bfdc463d3fa68fe5b.woff",
     "static/media/quicksand-latin-400.woff": "/portfolio/static/media/quicksand-latin-400.558969494c5e2743f1cf.woff",
@@ -13,11 +13,11 @@
     "static/media/quicksand-latin-700.woff2": "/portfolio/static/media/quicksand-latin-700.e38cff2ded151dda276f.woff2",
     "static/media/quicksand-latin-300.woff2": "/portfolio/static/media/quicksand-latin-300.c21933f51b34fd58090f.woff2",
     "index.html": "/portfolio/index.html",
-    "main.0dc37f63.css.map": "/portfolio/static/css/main.0dc37f63.css.map",
-    "main.b5d01393.js.map": "/portfolio/static/js/main.b5d01393.js.map"
+    "main.2df38159.css.map": "/portfolio/static/css/main.2df38159.css.map",
+    "main.96d52d7a.js.map": "/portfolio/static/js/main.96d52d7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dc37f63.css",
-    "static/js/main.b5d01393.js"
+    "static/css/main.2df38159.css",
+    "static/js/main.96d52d7a.js"
   ]
 }
