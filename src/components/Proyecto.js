@@ -15,9 +15,9 @@ const Proyecto = () => {
     }, []);
 
   return (
-      <div className='page page-work'>
-        <h1 className='heading' id='title-mobile'>{proyecto.nombre}</h1>
-            <div className='project-mask'>
+      <div className='page page-work animate__animated animate__flipInX'>
+        <h1 className='heading ' id='title-mobile'>{proyecto.nombre}</h1>
+            <div className='project-mask '>
               <img src={process.env.PUBLIC_URL+`/${proyecto.id}.png`} alt={proyecto.id}/>
             </div>
         <p className='tecnologias'><b>{proyecto.tecnologias}</b></p>
