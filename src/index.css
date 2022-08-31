@@ -171,6 +171,13 @@ button:hover{
 
 .page .heading {
   font-size: 45px;
+  padding-bottom: 10px;
+}
+
+.tecnologias{
+  color: #f45572;
+  font-size: 20px;
+  text-decoration: bolder;
 }
 
 input[type='text'],
@@ -356,5 +363,9 @@ form textarea {
     margin-top: 0px;
     border-top: 1px solid #ddd;
     padding-top: 10px;
+  }
+  #title-mobile{
+    font-size: 25px;
+    padding-bottom: 10px;
   }
 }
