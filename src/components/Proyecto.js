@@ -16,8 +16,8 @@ const Proyecto = () => {
   return (
       <div className='page page-work'>
         <h1 className='heading'>{proyecto.nombre}</h1>
-            <div className='mask'>
-              <img src={process.env.PUBLIC_URL+`/${proyecto.id}.png`} />
+            <div className='project-mask'>
+              <img src={process.env.PUBLIC_URL+`/${proyecto.id}.png`} alt={proyecto.id}/>
             </div>
         <p>{proyecto.tecnologias}</p>
         <p>{proyecto.descripcion}</p>

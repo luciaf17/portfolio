@@ -18,6 +18,16 @@ const Contacto = () => {
     icon: '👏'});
   const notifyError = () => toast.error('Error al enviar mensaje :(');
 
+  const notifyFields = () => toast.success('Mensaje Enviado correctamente!', {
+    duration: 4000,
+    position: 'center',
+  
+    // Styling
+    style: {
+    fontSize: '20px',
+    backgroundColor: '#cafde6'
+    }});
+
   let form = useRef();
 
   const handleReset = () => {
@@ -25,6 +35,9 @@ const Contacto = () => {
   };
 
   const sendEmail = (e) => {
+    if(form.current === ''){
+      notifyFields();
+    }
     e.preventDefault();
 
     emailjs.sendForm('service_kpt4rcn', 'template_eeemvp7', form.current, 'f7r-tRS8pVAXWqS3M')

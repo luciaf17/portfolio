@@ -10,7 +10,7 @@ const ListadoTrabajos = () => {
           return (
           <article key={trabajo.id} className="work-item">
             <div className='mask'>
-            <img src={process.env.PUBLIC_URL+`/${trabajo.id}.png`} />
+            <Link to={"/proyecto/" + trabajo.id}><img src={process.env.PUBLIC_URL+`/${trabajo.id}.png`} alt={trabajo.id}/></Link>
             </div>
             <span>{trabajo.categoria}</span>
             <h2> <Link to={"/proyecto/" + trabajo.id}>{trabajo.nombre}</Link></h2>

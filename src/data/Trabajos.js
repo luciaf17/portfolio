@@ -56,7 +56,7 @@ export const trabajos = [
         'descripcion': 'La app realiza una petición a la api de Coincap, para luego mostrar los precios de las principales criptomonedas. Se realizó un carousel para mostrar las criptos recomendadas. También cuenta con un filtro donde se pueden buscar las criptomonedas que el usuario desee. Repositorio: https://github.com/luciaf17/cotizador-cripto'
     },
     {
-        'id': 'aprograma2',
+        'id': 'aprograma',
         'nombre':'Turismo En La Tierra Media',
         'url':'github.com/ap-lisajunior/turismo-tierra-media-webapp',
         'tecnologias':'JAVA, HTML, CSS, Bootstrap, SQL',

@@ -9,6 +9,9 @@ const Servicios = () => {
           <h3>Diseño Web</h3>
         </article>
         <article className='service'>
+          <h3>Diseño UX/UI</h3>
+        </article>
+        <article className='service'>
           <h3>Desarrollo Web</h3>
         </article>
         <article className='service'>
