@@ -35,9 +35,10 @@ const Contacto = () => {
   };
 
   const sendEmail = (e) => {
+    console.log(form.current.input)
     if(form.current === ''){
       notifyFields();
-    }
+    }else{
     e.preventDefault();
 
     emailjs.sendForm('service_kpt4rcn', 'template_eeemvp7', form.current, 'f7r-tRS8pVAXWqS3M')
@@ -47,6 +48,7 @@ const Contacto = () => {
       }, (error) => {
         notifyError();
       });
+    }
   };
 
   return (
