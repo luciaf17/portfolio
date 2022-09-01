@@ -107,10 +107,14 @@ const Contacto = () => {
     <div className='page animate__animated animate__fadeInLeft'>
       <h1 className='heading'>Contacto</h1>
       <form className='contact' ref={form} >
-        <input type="text" placeholder='Nombre' onChange={handleChange} name="nombre" value={nombre}/>
-        <input type="text" placeholder='Apellido' onChange={handleChange} name="apellido" value={apellido}/>
-        <input type="text" placeholder='Email' onChange={handleChange} name="email" value={email}/>
-        <textarea placeholder='Motivo de Contacto..' onChange={handleChange} name="mensaje" value={mensaje}/>
+        <label>Nombre: </label>
+        <input type="text" onChange={handleChange} name="nombre" value={nombre}/>
+        <label>Apellido: </label>
+        <input type="text"  onChange={handleChange} name="apellido" value={apellido}/>
+        <label>Email: </label>
+        <input type="text"  onChange={handleChange} name="email" value={email}/>
+        <label>Mensaje: </label>
+        <textarea onChange={handleChange} name="mensaje" value={mensaje}/>
         <input type="submit" onClick={sendEmail} placeholder='Enviar' className='animate__animated animate__pulse'/>
         <Toaster />
       </form>

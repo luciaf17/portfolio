@@ -38,6 +38,14 @@ code {
   background-color: #fff6fa;
 }
 
+.lu{
+  width: 100px;
+  align-self: center;
+  
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 .header h3{
   display: block;
   flex-basis: 40px;
@@ -45,6 +53,18 @@ code {
   font-weight: 500;
   text-transform: uppercase;
   font-size: larger;
+  text-align: center;
+  padding-right: 10px;
+}
+
+.label{
+  padding: 5px;
+}
+
+textarea:focus, input:focus, input[type]:focus {
+  border-color: #f79fbe;
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px #f79fbe;
+  outline: 0 none;
 }
 
 .header nav{
@@ -81,6 +101,16 @@ code {
 .header a:hover{
   color: #f79fbe;
   transition: all 300ms;
+}
+
+.foto-about{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.foto-about img{
+  margin-left: 10px;
 }
 
 
@@ -184,7 +214,8 @@ textarea{
   padding: 15px;
   display: block;
   width: 250px;
-  margin-top: 25px;
+  margin-top: 5px;
+  margin-bottom: 15px;
 
 }
 
@@ -257,7 +288,7 @@ button{
   margin-top: 5px;
   font-size: 20px;
   margin-top: 0px;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #75c2f9;
   padding-top: 15px;
 }
 
@@ -303,6 +334,21 @@ form textarea {
 .page .heading a:hover{
   background-color: #f79fbe;
   transition-duration: 300ms;
+}
+
+.service{
+  display: flex;
+  align-items: center;
+}
+
+.service h3{
+  padding-right: 15px;
+}
+
+.service .icon{
+  font-size: 30px;
+  color: #75c2f9;
+  padding-right: 15px;
 }
 
 @media (max-width: 1085px){
