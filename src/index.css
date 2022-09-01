@@ -57,8 +57,9 @@ code {
   padding-right: 10px;
 }
 
-.label{
+label{
   padding: 5px;
+  font-size: 20px;
 }
 
 textarea:focus, input:focus, input[type]:focus {
@@ -188,6 +189,10 @@ input[type='submit']:hover,
 button:hover{
   background-color: #f79fbe;
   transition-duration: 300ms;
+}
+
+p{
+  font-size: 20px;
 }
 
 .page .heading,
@@ -396,6 +401,10 @@ form textarea {
     font-size: 20px;
     margin-bottom: 10px;
   }
+
+  p{
+    font-size: 17px;
+  }
   
   .work-item h3{
     text-align: center;
@@ -410,5 +419,9 @@ form textarea {
   #title-mobile{
     font-size: 25px;
     padding-bottom: 10px;
+  }
+
+  label{
+    font-size: 17px;
   }
 }
