@@ -9,7 +9,7 @@ import { SiMysql, SiTableau, SiArduino, SiCanva } from "react-icons/si";
 const Servicios = () => {
   return (
     <div className='page animate__animated animate__fadeInLeft'>
-      <h1 className='heading'>Mis Servicios</h1>
+      <h1 className='heading'>Mis Conocimientos</h1>
       <section className='services'>
         <article className='service'>
           <h3>Diseño Web</h3><FaHtml5 className='icon animate__animated animate__zoomInDown'/><FaCss3Alt className='icon animate__animated animate__zoomInDown'/><FaBootstrap className='icon animate__animated animate__zoomInDown'/>
