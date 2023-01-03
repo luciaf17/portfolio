@@ -8,6 +8,14 @@ export const trabajos = [
         'descripcion': 'Proyecto para Una consultora que necesitaba una app en Salesforce en la que se pueda llevar un control de los proyectos de cada Project Manager, en la cual se trabajó con LWC, Apex, Flows y Custom Reports'
     },
     {
+        'id': 'coral-print',
+        'nombre':'Tienda Virtual Coral Print',
+        'url':'coralprint.com.ar',
+        'tecnologias':'Wordpress, Elementor, Woocommerce',
+        'categoria':'Diseño y Desarrollo Web',
+        'descripcion': 'Tienda Virtual empresarial.'
+    },
+    {
         'id': 'smart-green',
         'nombre':'Smart Green App',
         'url':'github.com/luciaf17/bootcamp-udemy-iot',

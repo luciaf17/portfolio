@@ -12,7 +12,7 @@ const Servicios = () => {
       <h1 className='heading'>Mis Conocimientos</h1>
       <section className='services'>
         <article className='service'>
-          <h3>Diseño Web</h3><FaHtml5 className='icon animate__animated animate__zoomInDown'/><FaCss3Alt className='icon animate__animated animate__zoomInDown'/><FaBootstrap className='icon animate__animated animate__zoomInDown'/>
+          <h3>Diseño Web, Low code, Wordpress, Elementor</h3><FaHtml5 className='icon animate__animated animate__zoomInDown'/><FaCss3Alt className='icon animate__animated animate__zoomInDown'/><FaBootstrap className='icon animate__animated animate__zoomInDown'/>
         </article>
         <article className='service'>
           <h3>Diseño UX/UI</h3><FaFigma className='icon animate__animated animate__zoomInDown'/><SiCanva className='icon animate__animated animate__zoomInDown'/>
