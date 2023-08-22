@@ -8,6 +8,14 @@ export const trabajos = [
         'descripcion': 'Web personal con blog'
     },
     {
+        'id': 'tuoo',
+        'nombre':'tuoo',
+        'url':'tuo-o.com/',
+        'tecnologias':'Wordpress, Elementor',
+        'categoria':'Diseño y Desarrollo Web',
+        'descripcion': 'Web para diseñadora textil'
+    },
+    {
         'id': 'ceibo',
         'nombre':'Metalúrgica Ceibo',
         'url':'metalurgicaceibo.com.ar/',
