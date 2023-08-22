@@ -1,5 +1,37 @@
 export const trabajos = [
     {
+        'id': 'wandevlu',
+        'nombre':'Wandevlu',
+        'url':'wandevlu.com/',
+        'tecnologias':'Wordpress, Elementor',
+        'categoria':'Diseño y Desarrollo Web',
+        'descripcion': 'Web personal con blog'
+    },
+    {
+        'id': 'ceibo',
+        'nombre':'Metalúrgica Ceibo',
+        'url':'metalurgicaceibo.com.ar/',
+        'tecnologias':'Wordpress, Elementor, Woocommerce',
+        'categoria':'Diseño y Desarrollo Web',
+        'descripcion': 'Web para una empresa de fabricación de implementos agrícolas'
+    },
+    {
+        'id': 'procad',
+        'nombre':'proCAD',
+        'url':'procad.com.ar/',
+        'tecnologias':'Wordpress, Elementor, Woocommerce',
+        'categoria':'Diseño y Desarrollo Web',
+        'descripcion': 'Web para una agencia de diseño e impresión 3D. Incluye tienda virtual'
+    },
+    {
+        'id': 'propus',
+        'nombre':'propus',
+        'url':'propus.com.ar/',
+        'tecnologias':'Wordpress, Elementor',
+        'categoria':'Diseño y Desarrollo Web',
+        'descripcion': 'Web para una agencia de arquitectura'
+    },
+    {
         'id': 'salesforce',
         'nombre':'Cloud Consulting Salesforce',
         'url':'github.com/CloudConsultingProyectLED/CloudConsultingLEDMM',
@@ -8,12 +40,12 @@ export const trabajos = [
         'descripcion': 'Proyecto para Una consultora que necesitaba una app en Salesforce en la que se pueda llevar un control de los proyectos de cada Project Manager, en la cual se trabajó con LWC, Apex, Flows y Custom Reports'
     },
     {
-        'id': 'coral-print',
-        'nombre':'Tienda Virtual Coral Print',
-        'url':'coralprint.com.ar',
-        'tecnologias':'Wordpress, Elementor, Woocommerce',
-        'categoria':'Diseño y Desarrollo Web',
-        'descripcion': 'Tienda Virtual empresarial.'
+        'id': 'previapp',
+        'nombre':'Previapp',
+        'url':'docs.google.com/presentation/d/1-iGwIoCZvsdV7u9OBy0l945LdgCVZUEjRBxBo8xa_WE/edit#slide=id.g225c9a523af_5_42',
+        'tecnologias':'Figma, Canva',
+        'categoria':'Diseño y Desarrollo Mobile',
+        'descripcion': 'Proyecto Diseño UX/UI'
     },
     {
         'id': 'smart-green',

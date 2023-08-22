@@ -8,6 +8,9 @@ const Curriculum = () => {
         
         <h2 className='cv-title'>Experiencia Laboral</h2>
         
+        <h3 className='cv-job'>Diseño y Desarrollo Web - Análisis de datos</h3>
+        <p>Trabajo con Wordpress, diseño y desarrollo sitios web profesionales, empresariales, tiendas virtuales y también brindo asesoría y servicio de análisis de datos, realización de manual de marca y piezas gráficas para redes a empresas.</p>
+        
         <h3 className='cv-job'>Asistente en la Dirección de la Producción - 2017-2020 - Metalúrgica Tesio S.A</h3>
         <p>Funciones: Recepción de órdenes de compra y organización del
         Sistema de Producción, realización de órdenes de
@@ -19,6 +22,16 @@ const Curriculum = () => {
         9001:2015.</p>
       
       <h2 className='cv-title'>Educación</h2>
+      
+      <h3 className='cv-job'> 2023 - Diseño Gr;afico Digital - Digitalmind </h3>
+      <p><strong className='strong'>Adobe Illustrator, Photoshop, Indesign. Creación manual de marca</strong>. 
+      <u> Proyecto</u>: <a href='https://drive.google.com/file/d/1jc5h-Fqsc_O3DhBMVycWeiY8eB-8sd14/view?usp=drive_link' rel="noreferrer" target="_blank"><FaExternalLinkSquareAlt className='animate__animated animate__zoomInDown'/></a></p>
+      
+
+      <h3 className='cv-job'> 2023 - Diseño UX/UI - Codo a Codo </h3>
+      <p><strong className='strong'>Figma</strong>. 
+      <u> Proyecto</u>: <a href='https://docs.google.com/presentation/d/1-iGwIoCZvsdV7u9OBy0l945LdgCVZUEjRBxBo8xa_WE/edit#slide=id.g225c9a523af_5_42' rel="noreferrer" target="_blank"><FaExternalLinkSquareAlt className='animate__animated animate__zoomInDown'/></a></p>
+      
       
       <h3 className='cv-job'> BOTS - Grupo Inteligencia Colectiva</h3>
       <p>Programa de formación en <strong className='strong'>Robótica Arduino</strong>. 
