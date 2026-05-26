@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="400" fill="#1e3a8a"/>
+  <rect width="600" height="400" fill="url(#grid)"/>
+  <g stroke="#ffffff" stroke-width="2" fill="none" opacity="0.8">
+    <rect x="120" y="100" width="240" height="160"/>
+    <rect x="140" y="120" width="80" height="60"/>
+    <rect x="240" y="120" width="100" height="60"/>
+    <rect x="140" y="200" width="200" height="50"/>
+    <line x1="120" y1="180" x2="220" y2="180"/>
+    <line x1="240" y1="180" x2="340" y2="180"/>
+  </g>
+  <g stroke="#fdcae1" stroke-width="1.5" opacity="0.9">
+    <line x1="120" y1="80" x2="360" y2="80"/>
+    <line x1="120" y1="76" x2="120" y2="84"/>
+    <line x1="360" y1="76" x2="360" y2="84"/>
+    <line x1="100" y1="100" x2="100" y2="260"/>
+    <line x1="96" y1="100" x2="104" y2="100"/>
+    <line x1="96" y1="260" x2="104" y2="260"/>
+  </g>
+  <g fill="#ffffff" font-family="Quicksand, sans-serif" text-anchor="middle">
+    <text x="300" y="320" font-size="26" font-weight="700">Sistema Planimetría</text>
+    <text x="300" y="348" font-size="13" opacity="0.8">Python · Google Drive · Sheets API</text>
+  </g>
+</svg>

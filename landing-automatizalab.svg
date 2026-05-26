@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="la-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f45572"/>
+      <stop offset="100%" stop-color="#75c2f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#la-bg)"/>
+  <g fill="rgba(255,255,255,0.12)">
+    <circle cx="100" cy="80" r="50"/>
+    <circle cx="520" cy="320" r="80"/>
+    <circle cx="500" cy="60" r="30"/>
+  </g>
+  <g fill="#ffffff" font-family="Quicksand, sans-serif" text-anchor="middle">
+    <text x="300" y="190" font-size="52" font-weight="700" letter-spacing="2">AutomatizaLab</text>
+    <text x="300" y="230" font-size="18" opacity="0.95">Desarrollo · IA · n8n · OpenAI</text>
+    <text x="300" y="280" font-size="14" opacity="0.85">Automatizaciones inteligentes para PyMEs</text>
+  </g>
+</svg>

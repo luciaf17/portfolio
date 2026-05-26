@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="c-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fafbff"/>
+      <stop offset="100%" stop-color="#eef2ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#c-bg)"/>
+  <rect x="0" y="0" width="600" height="56" fill="#1e293b"/>
+  <circle cx="28" cy="28" r="10" fill="#f45572"/>
+  <text x="50" y="34" fill="#fff" font-family="Quicksand, sans-serif" font-size="16" font-weight="700">Cotizador Industrial</text>
+  <rect x="30" y="80" width="540" height="40" rx="6" fill="#fff" stroke="#e5e7eb"/>
+  <text x="44" y="106" fill="#475569" font-family="Quicksand, sans-serif" font-size="14">Cliente: Metalúrgica Ceibo · Producto: Tolva Granelera 12T</text>
+  <rect x="30" y="140" width="260" height="120" rx="6" fill="#fff" stroke="#e5e7eb"/>
+  <text x="44" y="166" fill="#0f172a" font-family="Quicksand, sans-serif" font-size="13" font-weight="700">Dimensiones</text>
+  <text x="44" y="190" fill="#64748b" font-family="Quicksand, sans-serif" font-size="12">Largo: 4.20 m</text>
+  <text x="44" y="208" fill="#64748b" font-family="Quicksand, sans-serif" font-size="12">Ancho: 2.10 m</text>
+  <text x="44" y="226" fill="#64748b" font-family="Quicksand, sans-serif" font-size="12">Volumen: 12.000 L</text>
+  <text x="44" y="248" fill="#16a34a" font-family="Quicksand, sans-serif" font-size="12" font-weight="700">✓ Validado</text>
+  <rect x="310" y="140" width="260" height="120" rx="6" fill="#fff" stroke="#e5e7eb"/>
+  <text x="324" y="166" fill="#0f172a" font-family="Quicksand, sans-serif" font-size="13" font-weight="700">Bonificaciones en cascada</text>
+  <text x="324" y="190" fill="#64748b" font-family="Quicksand, sans-serif" font-size="12">Volumen: -8%</text>
+  <text x="324" y="208" fill="#64748b" font-family="Quicksand, sans-serif" font-size="12">Pago contado: -5%</text>
+  <text x="324" y="226" fill="#64748b" font-family="Quicksand, sans-serif" font-size="12">Cliente preferente: -3%</text>
+  <text x="324" y="248" fill="#f45572" font-family="Quicksand, sans-serif" font-size="13" font-weight="700">Descuento total: 15.2%</text>
+  <rect x="30" y="280" width="540" height="80" rx="6" fill="#1e293b"/>
+  <text x="50" y="312" fill="#fff" font-family="Quicksand, sans-serif" font-size="16" font-weight="700">Total final con IVA</text>
+  <text x="50" y="338" fill="#94a3b8" font-family="Quicksand, sans-serif" font-size="12">PDF profesional listo para enviar</text>
+  <text x="556" y="324" fill="#75c2f9" font-family="Quicksand, sans-serif" font-size="22" font-weight="700" text-anchor="end">$ 8.420.500</text>
+</svg>

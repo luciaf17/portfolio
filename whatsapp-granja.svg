@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="wa-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#075e54"/>
+      <stop offset="100%" stop-color="#128c7e"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#wa-bg)"/>
+  <rect x="0" y="0" width="600" height="60" fill="rgba(0,0,0,0.25)"/>
+  <circle cx="34" cy="30" r="16" fill="#22c55e"/>
+  <text x="34" y="35" fill="#fff" font-family="Outfit, sans-serif" font-size="14" text-anchor="middle" font-weight="700">DG</text>
+  <text x="62" y="28" fill="#fff" font-family="Outfit, sans-serif" font-size="14" font-weight="600">Día de Granja · Bot IA</text>
+  <text x="62" y="46" fill="#a7f3d0" font-family="DM Sans, sans-serif" font-size="11">En línea · responde 24/7</text>
+  <rect x="40" y="90" width="320" height="56" rx="14" fill="#fff"/>
+  <text x="60" y="115" fill="#0f172a" font-family="DM Sans, sans-serif" font-size="13">Hola, quiero saber los horarios y reservar</text>
+  <text x="60" y="135" fill="#0f172a" font-family="DM Sans, sans-serif" font-size="13">para el sábado 5 personas</text>
+  <text x="350" y="160" fill="rgba(255,255,255,0.6)" font-family="JetBrains Mono, monospace" font-size="9" text-anchor="end">10:23</text>
+  <rect x="240" y="180" width="320" height="80" rx="14" fill="#dcf8c6"/>
+  <text x="260" y="205" fill="#0f172a" font-family="DM Sans, sans-serif" font-size="13">¡Hola! 🌾 Abrimos sáb y dom de 10 a 18 hs.</text>
+  <text x="260" y="225" fill="#0f172a" font-family="DM Sans, sans-serif" font-size="13">Para reservar 5 personas:</text>
+  <text x="260" y="245" fill="#075e54" font-family="DM Sans, sans-serif" font-size="13" font-weight="600">→ reserva.diadegranja.com/abc123</text>
+  <text x="550" y="270" fill="rgba(0,0,0,0.4)" font-family="JetBrains Mono, monospace" font-size="9" text-anchor="end">10:23 ✓✓</text>
+  <g transform="translate(40, 290)">
+    <rect width="520" height="80" rx="10" fill="rgba(0,0,0,0.25)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="20" y="28" fill="#a7f3d0" font-family="JetBrains Mono, monospace" font-size="10" font-weight="700">PIPELINE n8n</text>
+    <text x="20" y="50" fill="#fff" font-family="DM Sans, sans-serif" font-size="12">Mensaje → Clasificación intent (GPT) → Deduplicación → Respuesta</text>
+    <text x="20" y="68" fill="#86efac" font-family="JetBrains Mono, monospace" font-size="10">Switch global on/off · prompt architecture · link dinámico</text>
+  </g>
+</svg>

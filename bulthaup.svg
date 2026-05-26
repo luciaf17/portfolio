@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bh-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="100%" stop-color="#292524"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bh-bg)"/>
+  <text x="40" y="50" fill="#d6d3d1" font-family="Outfit, sans-serif" font-size="11" font-weight="500" letter-spacing="6">SHOWROOM PREMIUM · EUROPA</text>
+  <text x="40" y="100" fill="#fff" font-family="Outfit, sans-serif" font-size="26" font-weight="700">76 combinaciones</text>
+  <text x="40" y="130" fill="#a8a29e" font-family="DM Sans, sans-serif" font-size="14">de emails personalizados generados con n8n</text>
+  <g transform="translate(40, 170)">
+    <rect width="80" height="80" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="40" y="40" fill="#fff" font-family="Outfit, sans-serif" font-size="11" text-anchor="middle">Airtable</text>
+    <text x="40" y="58" fill="#a8a29e" font-family="JetBrains Mono, monospace" font-size="9" text-anchor="middle">76 rows</text>
+  </g>
+  <text x="135" y="215" fill="#d6d3d1" font-family="JetBrains Mono, monospace" font-size="20">→</text>
+  <g transform="translate(160, 170)">
+    <rect width="80" height="80" rx="6" fill="rgba(244,85,114,0.08)" stroke="rgba(244,85,114,0.3)"/>
+    <text x="40" y="40" fill="#fff" font-family="Outfit, sans-serif" font-size="11" text-anchor="middle">n8n</text>
+    <text x="40" y="58" fill="#a8a29e" font-family="JetBrains Mono, monospace" font-size="9" text-anchor="middle">~300 LOC JS</text>
+  </g>
+  <text x="255" y="215" fill="#d6d3d1" font-family="JetBrains Mono, monospace" font-size="20">→</text>
+  <g transform="translate(280, 170)">
+    <rect width="80" height="80" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="40" y="40" fill="#fff" font-family="Outfit, sans-serif" font-size="11" text-anchor="middle">Google Docs</text>
+    <text x="40" y="58" fill="#a8a29e" font-family="JetBrains Mono, monospace" font-size="9" text-anchor="middle">PDF gen</text>
+  </g>
+  <text x="375" y="215" fill="#d6d3d1" font-family="JetBrains Mono, monospace" font-size="20">→</text>
+  <g transform="translate(400, 170)">
+    <rect width="100" height="80" rx="6" fill="rgba(125,211,252,0.08)" stroke="rgba(125,211,252,0.3)"/>
+    <text x="50" y="40" fill="#fff" font-family="Outfit, sans-serif" font-size="11" text-anchor="middle">Outlook</text>
+    <text x="50" y="58" fill="#a8a29e" font-family="JetBrains Mono, monospace" font-size="9" text-anchor="middle">OAuth2 SMTP</text>
+  </g>
+  <rect x="40" y="290" width="500" height="70" rx="10" fill="rgba(212,68,124,0.06)" stroke="rgba(212,68,124,0.2)"/>
+  <text x="60" y="316" fill="#fff" font-family="Outfit, sans-serif" font-size="13" font-weight="600">"Email para cliente premium, cocina B3, finalización roble"</text>
+  <text x="60" y="338" fill="#a8a29e" font-family="JetBrains Mono, monospace" font-size="10">→ PDF personalizado + envío automático</text>
+</svg>

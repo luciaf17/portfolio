@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="n-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dcfce7"/>
+      <stop offset="100%" stop-color="#a7f3d0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#n-bg)"/>
+  <circle cx="500" cy="80" r="60" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="80" cy="350" r="80" fill="rgba(255,255,255,0.25)"/>
+  <rect x="40" y="40" width="520" height="60" rx="8" fill="#ffffff" stroke="#86efac"/>
+  <circle cx="70" cy="70" r="14" fill="#22c55e"/>
+  <text x="100" y="76" fill="#0f172a" font-family="Quicksand, sans-serif" font-size="18" font-weight="700">NutriBot · Tracking del día</text>
+  <text x="520" y="76" fill="#64748b" font-family="Quicksand, sans-serif" font-size="13" text-anchor="end">Lu, 26 may</text>
+  <rect x="40" y="120" width="160" height="100" rx="8" fill="#ffffff" stroke="#86efac"/>
+  <text x="56" y="146" fill="#16a34a" font-family="Quicksand, sans-serif" font-size="11" font-weight="700">PROTEÍNAS</text>
+  <text x="56" y="180" fill="#0f172a" font-family="Quicksand, sans-serif" font-size="26" font-weight="800">142g</text>
+  <text x="56" y="200" fill="#64748b" font-family="Quicksand, sans-serif" font-size="11">/ 160g objetivo</text>
+  <rect x="220" y="120" width="160" height="100" rx="8" fill="#ffffff" stroke="#86efac"/>
+  <text x="236" y="146" fill="#f59e0b" font-family="Quicksand, sans-serif" font-size="11" font-weight="700">CARBOHIDRATOS</text>
+  <text x="236" y="180" fill="#0f172a" font-family="Quicksand, sans-serif" font-size="26" font-weight="800">218g</text>
+  <text x="236" y="200" fill="#64748b" font-family="Quicksand, sans-serif" font-size="11">/ 240g objetivo</text>
+  <rect x="400" y="120" width="160" height="100" rx="8" fill="#ffffff" stroke="#86efac"/>
+  <text x="416" y="146" fill="#f45572" font-family="Quicksand, sans-serif" font-size="11" font-weight="700">CALORÍAS</text>
+  <text x="416" y="180" fill="#0f172a" font-family="Quicksand, sans-serif" font-size="26" font-weight="800">2.140</text>
+  <text x="416" y="200" fill="#64748b" font-family="Quicksand, sans-serif" font-size="11">/ 2.400 kcal</text>
+  <rect x="40" y="240" width="520" height="120" rx="8" fill="#ffffff" stroke="#86efac"/>
+  <text x="56" y="266" fill="#0f172a" font-family="Quicksand, sans-serif" font-size="13" font-weight="700">Tendencia 7 días</text>
+  <polyline fill="none" stroke="#22c55e" stroke-width="3"
+    points="56,330 130,310 200,320 270,290 340,300 410,280 480,260 550,250"/>
+  <g fill="#22c55e">
+    <circle cx="56" cy="330" r="4"/>
+    <circle cx="130" cy="310" r="4"/>
+    <circle cx="200" cy="320" r="4"/>
+    <circle cx="270" cy="290" r="4"/>
+    <circle cx="340" cy="300" r="4"/>
+    <circle cx="410" cy="280" r="4"/>
+    <circle cx="480" cy="260" r="4"/>
+    <circle cx="550" cy="250" r="5"/>
+  </g>
+</svg>
