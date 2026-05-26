@@ -10,7 +10,7 @@ import Conocimientos from '../components/Conocimientos'
 
 const MisRutas = () => {
   return (
-    <BrowserRouter >
+    <BrowserRouter basename={process.env.PUBLIC_URL || '/'}>
       <HeaderNav />
       <section className='content'>
         <Routes>
