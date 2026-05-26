@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="iso-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0e27"/>
+      <stop offset="100%" stop-color="#1a1f3a"/>
+    </linearGradient>
+    <linearGradient id="iso-title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f0abfc"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#iso-bg)"/>
+  <g stroke="rgba(125,211,252,0.08)" stroke-width="1">
+    <line x1="0" y1="60" x2="600" y2="60"/>
+    <line x1="0" y1="350" x2="600" y2="350"/>
+    <line x1="180" y1="0" x2="180" y2="400"/>
+  </g>
+  <rect x="0" y="0" width="180" height="400" fill="rgba(15,23,42,0.5)"/>
+  <text x="20" y="40" fill="#7dd3fc" font-family="Quicksand, sans-serif" font-size="11" font-weight="700">GESTIÓN DOCUMENTAL ISO 9001</text>
+  <g font-family="Quicksand, sans-serif" font-size="12" fill="#94a3b8">
+    <text x="20" y="90">▸ Inicio</text>
+    <text x="20" y="115">▸ Dashboard</text>
+    <text x="20" y="140">▸ Contexto</text>
+    <text x="20" y="165">▸ Riesgos</text>
+    <text x="20" y="190">▸ Auditorías</text>
+    <text x="20" y="215">▸ No Conformidades</text>
+    <text x="20" y="240">▸ Objetivos</text>
+    <text x="20" y="265">▸ Indicadores</text>
+  </g>
+  <text x="200" y="50" fill="#94a3b8" font-family="Quicksand, sans-serif" font-size="10">SISTEMA OPERATIVO / METALURGICA CEIBO</text>
+  <text x="200" y="120" fill="url(#iso-title)" font-family="Quicksand, sans-serif" font-size="48" font-weight="800">AutomatizaLab</text>
+  <text x="200" y="150" fill="#cbd5e1" font-family="Quicksand, sans-serif" font-size="11">Sistema de Gestión de Calidad ISO 9001:2015</text>
+  <g>
+    <rect x="200" y="180" width="85" height="80" rx="6" fill="rgba(125,211,252,0.08)" stroke="rgba(125,211,252,0.3)"/>
+    <text x="210" y="200" fill="#94a3b8" font-family="Quicksand, sans-serif" font-size="9">HALLAZGOS</text>
+    <text x="210" y="240" fill="#7dd3fc" font-family="Quicksand, sans-serif" font-size="32" font-weight="700">19</text>
+    <rect x="295" y="180" width="85" height="80" rx="6" fill="rgba(244,85,114,0.08)" stroke="rgba(244,85,114,0.3)"/>
+    <text x="305" y="200" fill="#94a3b8" font-family="Quicksand, sans-serif" font-size="9">NO CONFORM.</text>
+    <text x="305" y="240" fill="#f45572" font-family="Quicksand, sans-serif" font-size="32" font-weight="700">10</text>
+    <rect x="390" y="180" width="85" height="80" rx="6" fill="rgba(167,139,250,0.08)" stroke="rgba(167,139,250,0.3)"/>
+    <text x="400" y="200" fill="#94a3b8" font-family="Quicksand, sans-serif" font-size="9">RIESGOS</text>
+    <text x="400" y="240" fill="#a78bfa" font-family="Quicksand, sans-serif" font-size="32" font-weight="700">0</text>
+    <rect x="485" y="180" width="85" height="80" rx="6" fill="rgba(34,197,94,0.08)" stroke="rgba(34,197,94,0.3)"/>
+    <text x="495" y="200" fill="#94a3b8" font-family="Quicksand, sans-serif" font-size="9">OPORTUNIDADES</text>
+    <text x="495" y="240" fill="#22c55e" font-family="Quicksand, sans-serif" font-size="32" font-weight="700">9</text>
+  </g>
+  <text x="200" y="320" fill="#7dd3fc" font-family="Quicksand, sans-serif" font-size="11">01 · PLANIFICACIÓN</text>
+  <text x="200" y="345" fill="#e2e8f0" font-family="Quicksand, sans-serif" font-size="18" font-weight="700">Planificación del SGC</text>
+  <text x="200" y="370" fill="#94a3b8" font-family="Quicksand, sans-serif" font-size="10">Contexto · Riesgos · Objetivos · Indicadores · CAPA · Auditorías</text>
+</svg>
