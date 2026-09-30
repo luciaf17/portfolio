@@ -83,7 +83,11 @@ function SkillBar({ skill, index }) {
 
 const Inicio = () => {
   const [filter, setFilter] = useState('all');
+  const [showMore, setShowMore] = useState(false);
   const filtered = filter === 'all' ? trabajos : trabajos.filter(p => p.category === filter);
+  // En "Todos" solo se ven los destacados; el resto queda plegado bajo "Ver más proyectos"
+  const collapsible = filter === 'all';
+  const visible = collapsible && !showMore ? filtered.filter(p => p.destacado) : filtered;
 
   const scrollTo = (id) => (e) => {
     e.preventDefault();
@@ -135,8 +139,15 @@ const Inicio = () => {
           </div>
         </div>
         <div className="al-grid">
-          {filtered.map((p, i) => <ProjectCard key={p.id} project={p} index={i} />)}
+          {visible.map((p, i) => <ProjectCard key={p.id} project={p} index={i} />)}
         </div>
+        {collapsible && (
+          <div className="al-cta-row" style={{ justifyContent: 'center', marginTop: 32 }}>
+            <button onClick={() => setShowMore(!showMore)} className="al-btn al-btn-ghost">
+              {showMore ? 'Ver menos proyectos' : 'Ver más proyectos'}
+            </button>
+          </div>
+        )}
       </section>
 
       <section id="stack" className="al-section">

@@ -1,6 +1,7 @@
 export const trabajos = [
     {
         'id': 'hub-ia',
+        'destacado': true,
         'nombre': 'Hub de IA AutomatizaLab',
         'imagen': 'hub-ia.svg',
         'url': '',
@@ -15,6 +16,7 @@ export const trabajos = [
     },
     {
         'id': 'erp-automatizapp',
+        'destacado': true,
         'nombre': 'ERP AutomatizaApp',
         'imagen': 'cotizador.png',
         'url': '',
@@ -29,6 +31,7 @@ export const trabajos = [
     },
     {
         'id': 'whatsapp-multiagente',
+        'destacado': true,
         'nombre': 'Plataforma multi-agente WhatsApp',
         'imagen': 'whatsapp-granja.png',
         'url': '',
@@ -43,12 +46,13 @@ export const trabajos = [
     },
     {
         'id': 'voz-clinica',
+        'destacado': true,
         'nombre': 'Agente de voz para clínicas (Hyperia)',
         'imagen': 'voz-clinica.svg',
         'url': '',
         'isPrivate': true,
-        'tags': ['Retell AI', 'n8n', 'Airtable'],
-        'tecnologias': 'Retell AI · n8n · Airtable',
+        'tags': ['Retell AI', 'n8n', 'GoHighLevel (GHL)', 'Airtable'],
+        'tecnologias': 'Retell AI · n8n · GoHighLevel (GHL) · Airtable',
         'categoria': 'Automatización & IA',
         'category': 'automation',
         'problema': 'Clínicas con recepción saturada: llamadas sin atender, turnos que se reprograman a mano y ausencias por falta de recordatorio.',
@@ -57,6 +61,7 @@ export const trabajos = [
     },
     {
         'id': 'iso9001',
+        'destacado': true,
         'nombre': 'SGC ISO 9001',
         'imagen': 'iso9001.png',
         'url': '',
@@ -71,6 +76,7 @@ export const trabajos = [
     },
     {
         'id': 'bolsa-trabajo',
+        'destacado': true,
         'nombre': 'Plataforma de Empleo (Municipio de Armstrong)',
         'imagen': 'bolsa-trabajo.svg',
         'url': '',
@@ -85,6 +91,7 @@ export const trabajos = [
     },
     {
         'id': 'rag-llamaindex',
+        'destacado': true,
         'nombre': 'RAG sobre documentación técnica',
         'imagen': 'rag-llamaindex.svg',
         'url': 'github.com/luciaf17/rag-llamaindex',
