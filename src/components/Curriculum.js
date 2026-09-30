@@ -4,20 +4,20 @@ import { FaExternalLinkSquareAlt } from "react-icons/fa";
 const Curriculum = () => {
   return (
       <div className='page animate__animated animate__fadeInLeft'>
-        <h1 className='heading'>Mi Curriculum <a href={process.env.PUBLIC_URL + '/CV MARIA LUCIA FUTESTTI.pdf'} download={''} className='animate__animated animate__pulse'>Descargar PDF</a></h1>
+        <h1 className='heading'>Mi Curriculum <a href={process.env.PUBLIC_URL + '/CV-Maria-Lucia-Futestti-AI-Engineer.pdf'} download={''} className='animate__animated animate__pulse'>Descargar CV</a></h1>
 
         <h2 className='cv-title'>Experiencia Laboral</h2>
 
-        <h3 className='cv-job'>Fundadora & Desarrolladora Full-Stack — AutomatizaLab — 2021 - Actualidad — Freelance Remoto</h3>
+        <h3 className='cv-job'>Desarrolladora Full-Stack & AI Engineer — Freelance — 2021 - Actualidad — Remoto</h3>
         <ul>
-          <li>Sistemas web con <strong className='strong'>Django + HTMX + Tailwind + PostgreSQL</strong>: cotizadores industriales con bonificaciones en cascada, validación dimensional y generación de PDF.</li>
-          <li>Plataformas municipales: bolsa de empleo con <strong className='strong'>parseo de CV por IA</strong> y matching inteligente; sistema fitosanitario con mapas Leaflet.</li>
-          <li><strong className='strong'>Automatizaciones con n8n</strong> (self-hosted en Railway): workflows integrando GHL, Airtable, Google Docs, generación de PDF y SMTP (hasta 76 combinaciones de contenido).</li>
-          <li><strong className='strong'>Chatbots de WhatsApp con n8n + GPT-4 + Google Sheets</strong>: clasificación de intenciones, deduplicación y arquitectura de prompts.</li>
-          <li><strong className='strong'>SGC ISO 9001 con Django</strong>: no conformidades, flujos CAPA, reportes PDF, bot Telegram con GPT-4o vision.</li>
-          <li>Bot de trading algorítmico con análisis de sentimiento: <strong className='strong'>FastAPI + PostgreSQL</strong> backend, dashboard interactivo en React, integración con Binance API para paper trading.</li>
-          <li>Diseño UX/UI con Vue.js, Tailwind y Figma. Paneles multi-tenant con permisos por rol.</li>
-          <li><strong className='strong'>Agentes IA con n8n y OpenAI API</strong>: flujos automatizados de atención y gestión.</li>
+          <li><strong className='strong'>Hub de IA de AutomatizaLab (FastAPI + LangGraph)</strong>, en producción para logística agropecuaria: grafo de agente con confirmación humana vía interrupt y checkpointer en Postgres; structured output con Pydantic (14 intenciones, prompt versionado medido con evals); streaming por SSE; RAG híbrido con pgvector, RRF y reranking (recall@5 95%); observabilidad con Langfuse; 137 tests y CI en GitHub Actions; Docker en Railway.</li>
+          <li><strong className='strong'>ERP AutomatizaApp (Django multi-tenant)</strong> para PyMEs industriales y agropecuarias: pedidos, viajes, paradas, stock y cotizador con motor de bonificaciones, validación dimensional y PDF.</li>
+          <li><strong className='strong'>Plataforma multi-cliente de agentes IA sobre WhatsApp Cloud API</strong>: clasificador de intención, agente conversacional con herramientas contra CRM y base de datos, agente de análisis por evento. Servidor MCP propio.</li>
+          <li><strong className='strong'>Agente de voz con Retell AI + n8n</strong> para clínicas: atiende llamadas, agenda, reprograma o cancela turnos en el calendario; recordatorios automáticos que reducen ausencias.</li>
+          <li>Captación automatizada para infoproductores: agente de voz que contactó una base de 500 leads, calificó interés y agendó sesiones de venta; dashboard con métricas del embudo.</li>
+          <li><strong className='strong'>SGC ISO 9001 con Django</strong>: no conformidades, flujos CAPA, reportes PDF, bot Telegram con GPT-4o Vision que extrae datos de reportes de planta fotografiados.</li>
+          <li>Plataformas municipales: bolsa de empleo con <strong className='strong'>parseo de CV por LLM</strong>, matching semántico y pipeline; sistema fitosanitario con mapas Leaflet.</li>
+          <li><strong className='strong'>Automatizaciones end-to-end con n8n</strong> (self-hosted): workflows integrando GHL, Airtable, Google Docs, generación de PDF y SMTP.</li>
         </ul>
 
         <h3 className='cv-job'>Asistente en Dirección de Producción — Metalúrgica Tesio S.A. — Oct 2017 - Dic 2020</h3>
@@ -29,8 +29,8 @@ const Curriculum = () => {
       <h3 className='cv-job'>2025 — Agentes IA con n8n — UBA IALab</h3>
       <p>Diseño de <strong className='strong'>agentes inteligentes con n8n, LLMs y herramientas externas</strong>.</p>
 
-      <h3 className='cv-job'>2024 — Inteligencia Artificial con Python — M1000IA</h3>
-      <p><strong className='strong'>Machine Learning, pandas, modelos predictivos y análisis de datos</strong>.</p>
+      <h3 className='cv-job'>2024 — Inteligencia Artificial con Python — M1000IA & IBM</h3>
+      <p><strong className='strong'>Fine-tuning de BERT para análisis de sentimiento, Machine Learning y pandas</strong>.</p>
 
       <h3 className='cv-job'>2023 — Diseño Gráfico Digital — DIGITALMIND</h3>
       <p><strong className='strong'>Illustrator, Photoshop, Figma</strong>. Interfaces, branding y piezas gráficas.

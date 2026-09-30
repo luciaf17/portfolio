@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="hub-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b0764"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#hub-bg)"/>
+  <g stroke="rgba(216,180,254,0.08)" stroke-width="1">
+    <line x1="0" y1="60" x2="600" y2="60"/>
+    <line x1="0" y1="120" x2="600" y2="120"/>
+  </g>
+  <text x="40" y="40" fill="#d8b4fe" font-family="Quicksand, sans-serif" font-size="11" font-weight="700">HUB DE IA · LOGÍSTICA AGROPECUARIA</text>
+  <text x="40" y="90" fill="#fff" font-family="Outfit, sans-serif" font-size="28" font-weight="700">Agente con confirmación humana</text>
+  <g font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">
+    <rect x="40" y="150" width="110" height="50" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(216,180,254,0.3)"/>
+    <text x="95" y="180" fill="#fff">intención</text>
+    <rect x="180" y="150" width="110" height="50" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(216,180,254,0.3)"/>
+    <text x="235" y="180" fill="#fff">RAG híbrido</text>
+    <rect x="320" y="150" width="110" height="50" rx="10" fill="rgba(245,158,11,0.10)" stroke="rgba(245,158,11,0.6)"/>
+    <text x="375" y="180" fill="#f59e0b">interrupt</text>
+    <rect x="460" y="150" width="100" height="50" rx="10" fill="rgba(34,197,94,0.10)" stroke="rgba(34,197,94,0.6)"/>
+    <text x="510" y="180" fill="#22c55e">ejecutar</text>
+  </g>
+  <g stroke="#d8b4fe" stroke-width="1.5" opacity="0.6">
+    <line x1="150" y1="175" x2="180" y2="175"/>
+    <line x1="290" y1="175" x2="320" y2="175"/>
+    <line x1="430" y1="175" x2="460" y2="175"/>
+  </g>
+  <rect x="40" y="230" width="520" height="70" rx="10" fill="rgba(255,255,255,0.04)" stroke="rgba(216,180,254,0.2)"/>
+  <text x="60" y="258" fill="#fff" font-family="Outfit, sans-serif" font-size="15" font-weight="600">¿Confirmás la operación?</text>
+  <text x="60" y="280" fill="#94a3b8" font-family="DM Sans, sans-serif" font-size="11">El agente espera aprobación · estado guardado en Postgres</text>
+  <text x="540" y="272" fill="#22c55e" font-family="JetBrains Mono, monospace" font-size="13" text-anchor="end" font-weight="700">✓ Sí</text>
+  <text x="40" y="350" fill="#d8b4fe" font-family="JetBrains Mono, monospace" font-size="11">LANGGRAPH · FASTAPI · PGVECTOR · RECALL@5 95%</text>
+</svg>

@@ -1,20 +1,63 @@
 export const trabajos = [
     {
-        'id': 'cotizador',
-        'nombre': 'Cotizador Industrial Multi-Tenant',
+        'id': 'hub-ia',
+        'nombre': 'Hub de IA AutomatizaLab',
+        'imagen': 'hub-ia.svg',
+        'url': '',
+        'isPrivate': true,
+        'tags': ['LangGraph', 'FastAPI', 'Pydantic', 'pgvector', 'Langfuse', 'Docker', 'GitHub Actions'],
+        'tecnologias': 'LangGraph · FastAPI · Pydantic · pgvector · Langfuse · Docker · GitHub Actions',
+        'categoria': 'Automatización & IA',
+        'category': 'automation',
+        'problema': 'Operar logística agropecuaria con un agente de IA confiable: que entienda la intención, no ejecute nada sin confirmación humana y responda con la documentación correcta.',
+        'solucion': 'Servicio LangGraph + FastAPI: agente con confirmación humana (interrupt + checkpointer en Postgres), structured output con 14 intenciones, prompt versionado medido con evals y RAG híbrido sobre pgvector.',
+        'highlight': 'En producción · recall@5 95% · Langfuse · 137 tests · CI · Docker'
+    },
+    {
+        'id': 'erp-automatizapp',
+        'nombre': 'ERP AutomatizaApp',
         'imagen': 'cotizador.png',
         'url': '',
         'isPrivate': true,
-        'tags': ['Django', 'PostgreSQL', 'HTMX', 'Tailwind', 'ReportLab'],
-        'tecnologias': 'Django · PostgreSQL · HTMX · Tailwind · ReportLab',
+        'tags': ['Django', 'PostgreSQL', 'HTMX', 'Docker', 'Railway'],
+        'tecnologias': 'Django · PostgreSQL · HTMX · Docker · Railway',
         'categoria': 'Full-Stack',
         'category': 'fullstack',
-        'descripcion': 'Sistema de cotización con 18 modelos, motor de bonificaciones en cascada, validación dimensional, acumulación por tasas, IVA diferenciado, generación de PDF y paneles multi-tenant con permisos por rol. (Repositorio privado)',
-        'highlight': '128 horas de desarrollo · 18 modelos Django · Motor de bonificaciones de 4 niveles'
+        'problema': 'PyMEs industriales y agropecuarias necesitan gestionar pedidos, logística, stock y cotizaciones en un solo sistema adaptado a su operación.',
+        'solucion': 'ERP Django multi-tenant: pedidos, viajes, stock y cotizador con motor de bonificaciones y generación de PDF.',
+        'highlight': 'Multi-tenant · Pedidos, viajes y stock · Cotizador con PDF'
+    },
+    {
+        'id': 'whatsapp-multiagente',
+        'nombre': 'Plataforma multi-agente WhatsApp',
+        'imagen': 'whatsapp-granja.png',
+        'url': '',
+        'isPrivate': true,
+        'tags': ['WhatsApp Cloud API', 'Agentes IA', 'Function calling', 'MCP'],
+        'tecnologias': 'WhatsApp Cloud API · Agentes IA · Function calling · MCP',
+        'categoria': 'Automatización & IA',
+        'category': 'automation',
+        'problema': 'Negocios que atienden a sus clientes por WhatsApp necesitan responder con datos reales del CRM y dar seguimiento a cada conversación sin hacerlo a mano.',
+        'solucion': 'Clasificador de intención + agente conversacional con herramientas contra CRM y base de datos + agente de análisis por evento. Servidor MCP propio.',
+        'highlight': 'Multi-cliente · Agente con herramientas · Servidor MCP propio'
+    },
+    {
+        'id': 'voz-clinica',
+        'nombre': 'Agente de voz para clínicas (Hyperia)',
+        'imagen': 'voz-clinica.svg',
+        'url': '',
+        'isPrivate': true,
+        'tags': ['Retell AI', 'n8n', 'Airtable'],
+        'tecnologias': 'Retell AI · n8n · Airtable',
+        'categoria': 'Automatización & IA',
+        'category': 'automation',
+        'problema': 'Clínicas con recepción saturada: llamadas sin atender, turnos que se reprograman a mano y ausencias por falta de recordatorio.',
+        'solucion': 'Agente de voz con Retell AI + n8n: atiende llamadas, agenda y reprograma turnos y envía recordatorios automáticos, con ficha unificada de paciente.',
+        'highlight': 'Atención por voz con IA · Recordatorios automáticos · Ficha unificada de paciente'
     },
     {
         'id': 'iso9001',
-        'nombre': 'SGC ISO 9001:2015',
+        'nombre': 'SGC ISO 9001',
         'imagen': 'iso9001.png',
         'url': '',
         'isPrivate': true,
@@ -22,12 +65,13 @@ export const trabajos = [
         'tecnologias': 'Django · DRF · PostgreSQL · n8n · Telegram · GPT-4o Vision · ReportLab',
         'categoria': 'Full-Stack',
         'category': 'fullstack',
-        'descripcion': 'Sistema de gestión de calidad completo: tracking de no conformidades, flujos CAPA, módulo de interacciones con cliente, encuestas de satisfacción con análisis IA, reportes PDF, y bot Telegram con análisis de fotos de planta vía GPT-4o Vision. (Repositorio privado)',
+        'problema': 'Los reportes de planta se completan en papel y pasarlos al sistema de gestión de calidad es lento y propenso a errores.',
+        'solucion': 'SGC en Django (no conformidades, flujos CAPA, reportes PDF) con bot de Telegram: GPT-4o Vision extrae los datos del reporte de planta desde una foto.',
         'highlight': 'Bot Telegram con visión IA · Reportes PDF automáticos · 2 instancias Railway en producción'
     },
     {
         'id': 'bolsa-trabajo',
-        'nombre': 'Bolsa de Trabajo Municipal',
+        'nombre': 'Plataforma de Empleo (Municipio de Armstrong)',
         'imagen': 'bolsa-trabajo.svg',
         'url': '',
         'isPrivate': true,
@@ -35,8 +79,22 @@ export const trabajos = [
         'tecnologias': 'Django · HTMX · Tailwind · PostgreSQL · GPT-4.1-mini',
         'categoria': 'Full-Stack',
         'category': 'fullstack',
-        'descripcion': 'Plataforma de empleo con parseo de CV por IA, matching inteligente candidato-puesto, publicaciones anónimas, pipeline de seguimiento y 3 paneles diferenciados (admin, empresa, candidato). Producto replicable bajo emplear.com.ar.',
-        'highlight': 'Parseo de CV con IA · Matching inteligente · Replicable para otros municipios'
+        'problema': 'Un municipio necesitaba conectar candidatos con empresas locales sin revisar cada CV a mano.',
+        'solucion': 'Parseo de CV con LLM, matching semántico candidato-puesto y pipeline de seguimiento, con paneles para admin, empresa y candidato.',
+        'highlight': 'Parseo de CV con LLM · Matching semántico · Replicable para otros municipios'
+    },
+    {
+        'id': 'rag-llamaindex',
+        'nombre': 'RAG sobre documentación técnica',
+        'imagen': 'rag-llamaindex.svg',
+        'url': 'github.com/luciaf17/rag-llamaindex',
+        'tags': ['Python', 'LlamaIndex', 'pgvector', 'FastAPI', 'OpenAI', 'Gemini', 'Ollama'],
+        'tecnologias': 'Python · LlamaIndex · pgvector · FastAPI · OpenAI · Gemini · Ollama',
+        'categoria': 'Automatización & IA',
+        'category': 'automation',
+        'problema': 'Consultar documentación extensa con un LLM sin que invente: cada respuesta tiene que salir de los documentos y citar su fuente.',
+        'solucion': 'RAG con Python + LlamaIndex sobre pgvector, multi-proveedor (OpenAI, Gemini, Ollama), con citas de archivo y página y evaluación propia.',
+        'highlight': 'Repo público · Multi-proveedor · Evaluación propia'
     },
     {
         'id': 'bulthaup',
@@ -50,32 +108,6 @@ export const trabajos = [
         'category': 'automation',
         'descripcion': 'Automatización end-to-end para generación de emails personalizados de recomendación de cocinas. Motor JavaScript de ~300 líneas mapea 76 combinaciones de contenido desde Airtable, genera PDF vía Google Docs y envía por Outlook.',
         'highlight': '76 combinaciones de contenido · Generación automática de PDF · Envío SMTP con OAuth2'
-    },
-    {
-        'id': 'whatsapp-granja',
-        'nombre': 'Chatbot WhatsApp con IA',
-        'imagen': 'whatsapp-granja.png',
-        'url': '',
-        'isPrivate': true,
-        'tags': ['n8n', 'GPT-4.1-mini', 'Google Sheets', 'WhatsApp Cloud API'],
-        'tecnologias': 'n8n · GPT-4.1-mini · Google Sheets · WhatsApp Cloud API',
-        'categoria': 'Automatización & IA',
-        'category': 'automation',
-        'descripcion': 'Bot de atención automatizada con clasificación de intenciones, deduplicación de respuestas, switch on/off global, prompts con reglas de acción directa y link de reserva dinámico.',
-        'highlight': 'Clasificación de intenciones por IA · Switch global on/off · Prompt architecture'
-    },
-    {
-        'id': 'voz-clinica',
-        'nombre': 'Sistema de Voz Multi-Clínica',
-        'imagen': 'voz-clinica.svg',
-        'url': '',
-        'isPrivate': true,
-        'tags': ['Retell', 'n8n', 'Airtable'],
-        'tecnologias': 'Retell · n8n · Airtable',
-        'categoria': 'Automatización & IA',
-        'category': 'automation',
-        'descripcion': 'Sistema de voz con IA para atención telefónica de clínicas. Integración Retell + n8n + Airtable para gestión de turnos y consultas automatizadas por voz.',
-        'highlight': 'Atención por voz con IA · Multi-tenant · Integración Retell'
     },
     {
         'id': 'crypto-bot',
@@ -93,7 +125,8 @@ export const trabajos = [
         'id': 'sistema-planimetria',
         'nombre': 'Planimetría Industrial',
         'imagen': 'sistema-planimetria.svg',
-        'url': 'github.com/luciaf17/sistema-planimetria',
+        'url': '',
+        'isPrivate': true,
         'tags': ['Python', 'pdfplumber', 'gspread', 'Google Drive API'],
         'tecnologias': 'Python · pdfplumber · gspread · Google Drive API',
         'categoria': 'Full-Stack',
@@ -293,10 +326,9 @@ export const categorias = [
 ];
 
 export const skills = [
-    { group: 'Frontend', items: 'React · Vue.js · HTMX · Tailwind CSS · React Native · Figma' },
-    { group: 'Backend', items: 'Django · FastAPI · PostgreSQL · REST APIs · Celery' },
-    { group: 'Automatización', items: 'n8n · WhatsApp Cloud API · GoHighLevel · Airtable · Google Apps Script' },
-    { group: 'IA', items: 'OpenAI API · GPT-4 / GPT-4o Vision · Agentes IA · Prompt Engineering' },
-    { group: 'DevOps', items: 'Railway · Cloudflare · Git/GitHub · Docker' },
-    { group: 'Datos', items: 'Tableau · pandas · Excel avanzado · pdfplumber' },
+    { group: 'IA & LLMs', items: 'LangGraph · LangChain · LlamaIndex · OpenAI / Gemini / Anthropic APIs · Structured output con Pydantic · Function calling · RAG híbrido (pgvector, RRF, reranking) · Evals · Langfuse · MCP · Ollama · Fine-tuning de BERT' },
+    { group: 'Backend', items: 'Python · FastAPI · Django · Pydantic · PostgreSQL · pgvector · Supabase · REST APIs · SSE · Webhooks' },
+    { group: 'Automatización', items: 'n8n (self-hosted) · GoHighLevel (GHL) · Airtable · WhatsApp Cloud API · Telegram Bot API · Retell AI' },
+    { group: 'Frontend', items: 'HTMX · Tailwind · React · Vue.js' },
+    { group: 'DevOps', items: 'Docker · GitHub Actions · Railway · pytest · ruff · uv · Linux' },
 ];

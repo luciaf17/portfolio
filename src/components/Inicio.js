@@ -40,7 +40,14 @@ function ProjectCard({ project, index }) {
         </div>
         <div className="al-card-body">
           <h3 className="al-card-title">{project.nombre}</h3>
-          <p className="al-card-desc">{project.descripcion}</p>
+          {project.problema ? (
+            <>
+              <p className="al-card-desc"><strong>Problema:</strong> {project.problema}</p>
+              <p className="al-card-desc"><strong>Solución:</strong> {project.solucion}</p>
+            </>
+          ) : (
+            <p className="al-card-desc">{project.descripcion}</p>
+          )}
           <div className="al-card-tags">
             {project.tags && project.tags.map(tag => (
               <span key={tag} className="al-tag">{tag}</span>
@@ -92,14 +99,17 @@ const Inicio = () => {
       </div>
 
       <section id="hero" className="al-hero">
-        <p className="al-eyebrow">FULL-STACK DEVELOPER · AUTOMATION · IA</p>
+        <p className="al-eyebrow">APPLIED AI ENGINEER · AGENTES, RAG Y AUTOMATIZACIÓN CON LLMs</p>
         <h1 className="al-name">
           María Lucía<br />
           <span className="al-name-grad">Futestti</span>
         </h1>
         <p className="al-lead">
-          Desarrollo sistemas web, automatizaciones inteligentes y soluciones con IA que resuelven
-          problemas reales de negocio. Desde Córdoba, Argentina, para clientes en LATAM y Europa.
+          Desarrolladora Python con 5 años de experiencia, especializada en llevar IA generativa a
+          producción: agentes conversacionales y de voz, sistemas RAG, integraciones con LLMs y
+          automatización de procesos de negocio. Trabajo con clientes en Argentina y España.
+          Formación en Relaciones Internacionales y 3 años en producción industrial: entiendo el
+          negocio antes de automatizarlo.
         </p>
         <div className="al-cta-row">
           <a href="#proyectos" onClick={scrollTo('proyectos')} className="al-btn al-btn-primary">Ver proyectos</a>
@@ -140,19 +150,17 @@ const Inicio = () => {
         <h2 className="al-section-title">Sobre mí</h2>
         <div className="al-about">
           <p>
-            Lic. en Relaciones Internacionales reconvertida a desarrolladora full-stack y especialista
-            en <strong>automatizaciones con IA</strong>. Mi formación me dio visión estratégica, capacidad
-            de análisis y habilidades de negociación que aplico a cada proyecto.
+            Soy Lic. en Relaciones Internacionales y trabajé 3 años en producción industrial antes de
+            dedicarme al desarrollo: <strong>entiendo el negocio antes de automatizarlo</strong>.
           </p>
           <p>
-            Trabajo desde Cruz Alta, Córdoba, sirviendo clientes en Argentina, España y LATAM.
+            Hoy llevo <strong>IA generativa a producción</strong>: agentes con LangGraph y confirmación
+            humana, sistemas RAG medidos con evals, agentes conversacionales y de voz, y
+            <strong> automatización de procesos</strong> con n8n self-hosted, GoHighLevel y Airtable.
+          </p>
+          <p>
+            Trabajo desde Cruz Alta, Córdoba, con clientes en Argentina y España.
             Nacionalidad italiana. Disponible para trabajo remoto full-time.
-          </p>
-          <p>
-            Una parte central de mi día a día es la <strong>integración con la API de OpenAI</strong>
-            (GPT-4 / GPT-4o) y el <strong>diseño de workflows en n8n</strong> self-hosted:
-            chatbots de WhatsApp, agentes IA, parseo de CVs, clasificación de intenciones y
-            orquestación de procesos entre GHL, Airtable y Google Workspace.
           </p>
         </div>
       </section>

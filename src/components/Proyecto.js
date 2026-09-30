@@ -23,7 +23,14 @@ const Proyecto = () => {
                 />
             </div>
             <p className='tecnologias'><b>{proyecto.tecnologias}</b></p>
-            <p className='descripcion'>{proyecto.descripcion}</p>
+            {proyecto.problema ? (
+                <>
+                    <p className='descripcion'><b>Problema:</b> {proyecto.problema}</p>
+                    <p className='descripcion'><b>Solución:</b> {proyecto.solucion}</p>
+                </>
+            ) : (
+                <p className='descripcion'>{proyecto.descripcion}</p>
+            )}
             {proyecto.highlight && (
                 <p className='descripcion' style={{ color: '#D4447C', fontFamily: 'JetBrains Mono, monospace', fontSize: 13 }}>
                     {proyecto.highlight}
